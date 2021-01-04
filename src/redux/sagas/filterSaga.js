@@ -4,8 +4,8 @@ function* filter(action) {
     const filters = action.payload.reduce(
         (result, item) => ({
             ...result,
-            [item["details"]["apartmentType"]]: [
-                ...(result[item["details"]["apartmentType"]] || []),
+            [item["details"]["apartmentTypeTitle"]]: [
+                ...(result[item["details"]["apartmentTypeTitle"]] || []),
                 item,
             ],
         }),

@@ -79,7 +79,7 @@ export const OfferInfo = styled.div`
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin: 0.25rem 0;
+    margin: ${(props) => props.theme.spacing.medium} 0;
     color: ${(props) => props.theme.colors.secondary};
     & > span {
         font-weight: ${(props) => props.theme.fontWeight.bolder};
