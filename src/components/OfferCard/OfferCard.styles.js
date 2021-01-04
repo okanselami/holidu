@@ -79,7 +79,7 @@ export const OfferInfo = styled.div`
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin: ${(props) => props.theme.spacing.medium} 0;
+    margin: 0.75rem 0;
     color: ${(props) => props.theme.colors.secondary};
     & > span {
         font-weight: ${(props) => props.theme.fontWeight.bolder};
@@ -88,6 +88,7 @@ export const OfferInfo = styled.div`
 
 export const OfferTitle = styled.h3`
     font-size: ${(props) => props.theme.fontSizes.medium};
+    text-transform: uppercase;
 `;
 
 export const BreakLine = styled.div`
@@ -103,6 +104,8 @@ export const OfferProvider = styled.div`
 export const OfferProviderContainer = styled.div`
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
     padding: ${(props) => props.theme.spacing.medium} 0;
 `;
 
