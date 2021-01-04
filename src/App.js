@@ -1,4 +1,3 @@
-import "./reset.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { useSelector } from "react-redux";

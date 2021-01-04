@@ -7,7 +7,6 @@ const theme = {
         red: "#FF3A3D",
         white: "#ffffff",
     },
-    fonts: ["sans-serif", "Roboto"],
     borderRadius: "0.3rem",
     boxShadow: "0 2px 4px 0 rgba(0,0,0,0.13)",
     fontSizes: {
