@@ -15,7 +15,7 @@ export const OfferWrapper = styled.div`
 `;
 
 export const OfferContainer = styled.div`
-    height: 24rem;
+    height: 26rem;
     padding: ${(props) => props.theme.spacing.medium};
 `;
 
@@ -57,7 +57,7 @@ export const OfferImage = styled.div`
 export const OfferDetails = styled.div`
     display: flex;
     padding: ${(props) => props.theme.spacing.medium};
-    height: 9rem;
+    height: 10rem;
 `;
 
 export const OfferDetailsDiv = styled.div`
@@ -97,7 +97,7 @@ export const BreakLine = styled.div`
 export const OfferProvider = styled.div`
     padding: ${(props) => props.theme.spacing.medium};
     width: 100%;
-    height: 100%;
+    height: 6rem;
 `;
 
 export const OfferProviderContainer = styled.div`
